@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visitor_messages",
+  "info": {
+    "singularName": "visitor-message",
+    "pluralName": "visitor-messages",
+    "displayName": "Visitor Message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "project_categories": {
+      "type": "json"
+    }
+  }
+}
