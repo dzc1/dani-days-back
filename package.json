@@ -1,8 +1,8 @@
 {
-  "name": "backend-api",
+  "name": "dani-days-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi application containing information about Daniel Diaz - UX|UI Designer",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
