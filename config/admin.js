@@ -15,5 +15,5 @@ module.exports = ({ env }) => ({
     enabled: env.bool("AUDIT_LOGS_ENABLED", true),
     retentionDays: 120,
   },
-  url: env("PUBLIC_ADMIN_URL", "/dashboard"),
+  //url: env("PUBLIC_ADMIN_URL", "/dashboard"),
 });
